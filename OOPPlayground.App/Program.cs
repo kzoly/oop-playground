@@ -1,40 +1,35 @@
-﻿using OOPPlayground.App.Classes;
+﻿using OOPPlayground.app.Clases;
 using System;
 
-namespace OOPPlayground.App
+namespace OOPPlayground.app
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Employee ferenc = new Employee("Ferenc", "Pato");
+            Employee zoli= new Employee("Zoli","Kov");
 
-            // ferenc.FirstName = "Ferenc";
-            // ferenc.LastName = "Pato";
+            IEmployeStore store = new EmployeeStore();
 
-            IEmplyeeStore store = new EmplyeeStore();
-            
-            store.AddEmployee(ferenc);
-            
+            store.AddEmployee(zoli);
             var randomId = Guid.NewGuid();
             var secondEmployee = new Employee("Donald", "Trump");
             secondEmployee.Id = randomId;
             store.AddEmployee(secondEmployee);
 
-            store.AddEmployee(new Employee("Hillary", "Clinton"));
-
+            store.AddEmployee(new Employee("Hilary", "Clinton"));
             var allEmployees = store.GetAllEmployees();
 
             var donaldTrump = store.GetEmployeeById(randomId);
-
             Employee.GetSomeRandomString();
-
-            Console.WriteLine("The count of employees: " + allEmployees.Count);
-            foreach (var employee in allEmployees)
+            Console.WriteLine("The count of employees:" + allEmployees.Count); 
+            foreach(var employee in allEmployees)
             {
-                Console.WriteLine("The employee: " + employee.GetUserSerialized());
+                Console.WriteLine("The employee:" + employee.GetUserSerilized());
+
             }
-            Console.WriteLine("Query result: " + donaldTrump.GetUserSerialized());
+            Console.WriteLine("Query result:" + donaldTrump.GetFullName());
+
         }
     }
 }
