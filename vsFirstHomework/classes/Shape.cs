@@ -15,5 +15,9 @@ namespace vsFirstHomework.classes
             Name = name;
         }
 
+        public string GetName()
+        {
+            return Name;
+        }
     }
 }
