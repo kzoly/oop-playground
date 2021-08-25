@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace vsFirstHomework.classes
 {
-    interface IShape
+    interface IShapeStore
     {
+        public List<Shape> GetAllShapes();
+
+        public void AddShape(Shape shape);
+        public void DeleteShape();
+
     }
 }

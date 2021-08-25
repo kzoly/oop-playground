@@ -1,0 +1,16 @@
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\bin\Debug\net5.0\vsFirstHomework.exe
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\bin\Debug\net5.0\vsFirstHomework.deps.json
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\bin\Debug\net5.0\vsFirstHomework.runtimeconfig.json
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\bin\Debug\net5.0\vsFirstHomework.runtimeconfig.dev.json
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\bin\Debug\net5.0\vsFirstHomework.dll
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\bin\Debug\net5.0\ref\vsFirstHomework.dll
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\bin\Debug\net5.0\vsFirstHomework.pdb
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\vsFirstHomework.csproj.AssemblyReference.cache
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\vsFirstHomework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\vsFirstHomework.AssemblyInfoInputs.cache
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\vsFirstHomework.AssemblyInfo.cs
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\vsFirstHomework.csproj.CoreCompileInputs.cache
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\vsFirstHomework.dll
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\ref\vsFirstHomework.dll
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\vsFirstHomework.pdb
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\vsFirstHomework.genruntimeconfig.cache

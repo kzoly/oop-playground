@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace vsFirstHomework.classes
 {
-    class Shapes
+  
+    public class Shape
     {
+        protected string Name { get; set; }
+        public Shape(string name)
+        {
+            Name = name;
+        }
+
     }
 }
