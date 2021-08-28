@@ -11,7 +11,6 @@ namespace vsFirstHomework
         {
             IShapeStore store = new ShapeStore();
 
-
             Shape firstShape = new Shape("Rectangle",3,5);           
             store.AddShape(firstShape);
            //Console.WriteLine( firstShape.GetArea());

@@ -10,12 +10,12 @@ namespace vsFirstHomework.classes
   
     public class Shape
     {
-        //[JsonProperty("Name")]
+        [JsonProperty("Name")]
         protected string Name { get; set; }
 
-      //  [JsonProperty("A")]
+        [JsonProperty("A")]
         protected int A { get; set; }
-      //  [JsonProperty("B")]
+        [JsonProperty("B")]
         protected int B { get; set; }
         public Shape(string name, int a, int b=1)
         {
