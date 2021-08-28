@@ -14,3 +14,5 @@ D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\vsFirstHomewor
 D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\ref\vsFirstHomework.dll
 D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\vsFirstHomework.pdb
 D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\vsFirstHomework.genruntimeconfig.cache
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Fajlok\Dirico\vsFirstHomework\vsFirstHomework\obj\Debug\net5.0\vsFirstHomework.csproj.CopyComplete
