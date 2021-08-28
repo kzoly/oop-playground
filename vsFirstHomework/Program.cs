@@ -27,6 +27,7 @@ namespace vsFirstHomework
             foreach (var shape in allShapes)
             {
                 Console.WriteLine( shape.GetName()+ " with area:" + shape.GetArea()+ " and with perimeter:" + shape.GetPerimeter());
+                //Console.WriteLine("The employee:" + shape.GetShapeSerilized());
 
             }
         }

@@ -17,7 +17,7 @@ namespace vsFirstHomework.classes
         protected int A { get; set; }
         [JsonProperty("B")]
         protected int B { get; set; }
-        public Shape(string name, int a, int b=1)
+        public Shape(string name, int a, int b= default(int))
         {
             Name = name;
             A = a;
@@ -35,23 +35,27 @@ namespace vsFirstHomework.classes
         {
             double PI = 3.14;
             if (this.Name == "Square" || this.Name == "Rectangle")
-                return (this.A + this.B).ToString();
+                return JsonConvert.SerializeObject((this.A + this.B).ToString());
             else
                 if (this.Name == "Circle")
-                return  (PI * this.A*this.A).ToString();
+                return JsonConvert.SerializeObject((PI * this.A*this.A).ToString());
             else
-                return "Err of calculating area";
+                return JsonConvert.SerializeObject("Err of calculating area");
         }
         public string GetPerimeter()
         {
             double PI = 3.14;
             if (this.Name == "Square" || this.Name == "Rectangle")
-                return (2*(this.A + this.B)).ToString();
+                return JsonConvert.SerializeObject((2*(this.A + this.B)).ToString());
             else
                 if (this.Name == "Circle")
-                return (2 * PI * this.A).ToString();
+                return JsonConvert.SerializeObject((2 * PI * this.A).ToString());
             else
-                return "Err of calculating perimeter";
+                return JsonConvert.SerializeObject("Err of calculating perimeter");
+        }
+        public string GetShapeSerilized()
+        {
+            return JsonConvert.SerializeObject(this);
         }
     }
 }
