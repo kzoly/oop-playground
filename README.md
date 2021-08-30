@@ -1,6 +1,14 @@
 
-
-#  I have the video implementation in main branch and the homework in homework branches
+# #
+# 
+# 
+#  I have the video implementation in main branch,the homework in homework branch and the web API app in AspNetCoreWebApi branches
+# 
+# 
+# 
+# 
+# 
+# 
 
 
 
